@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (mines.has(cellId)) {
         cell.classList.add("revealed", "mine");
         revealAllMines(mines);
-        endGame("You Lost! Try Again.");
+        endGame("Ohh No ... \n You Loose! Try Again.");
       } else {
         const mineCount = countMinesAround(row, col, boardSize, mines);
         cell.classList.add("revealed");
@@ -135,11 +135,12 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   
     function endGame(message) {
-      gameboard.style.visibility = "hidden"; // Hide the gameboard
+     setTimeout( ()=>{gameboard.style.visibility = "hidden"; // Hide the gameboard
       endScreen.style.display = "flex"; // Show the end screen
       endScreenText.textContent = message; // Set the message
       startButton.style.display = "none"; // Hide the start button
       levelSelect.style.display = "none"; // Hide the level select dropdown
+    },1500);
     }
   });
   
