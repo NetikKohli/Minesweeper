@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+
+	<body>
+		<main id="root">
+			<div class="minesweeper">
+				<div class="minesweeper-mainscreen">
+                    <h1 class="minesweeper-title">Minesweeper</h1>
+                   
+                </div>
+				<div class="minesweeper-header">
+					<select class="minesweeper-level">
+						<option value="easy" selected>Easy</option>
+						<option value="medium">Medium</option>
+						<option value="hard">Hard</option>
+					</select>
+					<div class="minesweeper-flag-count">🚩 0</div>
+					<div class="minesweeper-controls">
+						<img class="minesweeper-restart minesweeper-control-button" src="restart.svg"/>
+						<img class="minesweeper-exit minesweeper-control-button" src="exit.svg"/>
+					</div>
+				</div>
+                <div class="start" style="display: flex; justify-content: center; background-color: green;">
+                   <button class="minesweeper-start" style="width: 100px; height: 50px; border-radius: 20px;">Change Level</button>
+                </div>
+				<div
+					class="minesweeper-board"><!-- Rows & Columns will Here -->
+				</div>
+				<div class="minesweeper-endscreen">
+					<h1 class="minesweeper-endscreen-text"></h1>
+				</div>
+			</div>
+		</main>
+		<script src="script.js"></script>
+	</body>
+
+</html>
