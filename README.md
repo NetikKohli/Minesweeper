@@ -1,1 +1,1 @@
-Live Link: (netikkohli.github.io/Minesweeper)
+[Live Link:](netikkohli.github.io/Minesweeper)
