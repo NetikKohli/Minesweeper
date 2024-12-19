@@ -2,7 +2,7 @@
 
 Live Link : [netikkohli.github.io/Minesweeper](https://netikkohli.github.io/Minesweeper)
 
-### How to Play
+## How to Play
 
 1. **Start the Game**
    - Choose your preferred grid size and difficulty level.
