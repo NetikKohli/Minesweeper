@@ -1,6 +1,6 @@
 ## Minesweeper - lets Test your brain 🧠
 
-Live Link : [netikkohli.github.io/Minesweeper](netikkohli.github.io/Minesweeper)
+Live Link : [netikkohli.github.io/Minesweeper](https://netikkohli.github.io/Minesweeper)
 
 ### How to Play
 
